@@ -1,0 +1,5 @@
+// If installing the pious knight component, she has a line to refer to her deity. You can choose whether this deity happens to have a common manifestation as masculine or feminine. Valid values: M (masculine), F (feminine)
+
+// None chosen by default (*)
+
+OUTER_SET zs_sset_pious_knight_god_gender = "*"

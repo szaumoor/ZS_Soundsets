@@ -1,0 +1,24 @@
+INCLUDE ~%MOD_FOLDER%/config/zs_ssets_config.txt~ 
+
+OUTER_SET god_gender_f = "%zs_sset_pious_knight_god_gender%" STR_EQ "F"
+OUTER_SET god_gender_m = "%zs_sset_pious_knight_god_gender%" STR_EQ "M"
+
+ACTION_IF NOT (god_gender_f OR god_gender_m) BEGIN
+
+    OUTER_SET gender = "F"
+    WARN "User did not a valid specific gender, defaulting to Female. This warning is harmless if that is suitable. Otherwise set the appropriate value in the soundset"
+
+END ELSE BEGIN
+
+    ACTION_IF god_gender_f BEGIN
+        OUTER_SET gender = "F"
+    END ELSE BEGIN
+        OUTER_SET gender = "M"
+    END
+
+    PRINT "User-chosen gender: %gender%"
+
+END
+
+
+COPY ~%MOD_FOLDER%/wav/pious_knight~ ~override~
