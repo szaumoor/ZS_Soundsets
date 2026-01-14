@@ -1,0 +1,69 @@
+// Selections
+@100 = ~Aye?~
+@101 = ~Ready for action.~
+@102 = ~How may I assist?~
+@103 = ~At your command!~
+@104 = ~Let us strategize.~
+@105 = ~Mhm.~
+
+// Actions
+@106 = ~Forward!~
+@107 = ~Let's go!~
+@108 = ~I hope that's sound strategy.~
+@109 = ~Let us onward, my friends.~
+@110 = ~Yes.~
+@111 = ~Consider accomplished.~
+@112 = ~On my way.~
+
+// select (action) rare
+@113 = ~We will thrive as long as we work together, and trust each other.~
+@114 = ~My god gives me great power and courage.~
+@115 = ~My goddess gives me great power and courage.~
+
+// moral failure
+@116 = ~Ugh! I shall not be intimidated!~
+
+// leader
+@117 = ~I shall lead to ensure no evil can stop us.~
+
+// bored
+@118 = ~Idling about won't get us anywhere.~
+
+// attack lines
+@119 = ~To the City of Judgment you go!~
+@120 = ~You made me do this...~
+@121 = ~I will destroy you!~
+@122 = ~Once more unto the breach, dear friends!~
+
+// damaged
+@123 = ~I need healing!~
+@124 = ~Ugh... No! I'm still... needed...~
+
+// circumstances
+@125 = ~I love the serenity of the forest.~
+@126 = ~Cities are usually dens of corruption.~
+@127 = ~Nothing with good intentions ever lives in places such as this.~
+@128 = ~Let the light dispel all our anxieties.~
+@129 = ~Evil in darkness go hand in hand. Stay alert.~
+
+// inventory
+@130 = ~My god grants me great strength, but not unlimited space.~
+@131 = ~My goddess grants me great strength, but not unlimited space.~
+
+// picked pocket
+@132 = ~Pocket exchange completed.~
+
+// hidden
+@133 = ~Let's be stealthy...~
+
+// interrupted
+@134 = ~Damn. I lost my focus.~
+
+// select rares (clicking too much)
+@135 = ~Stop with the poking!~
+@136 = ~You're testing the limits of my benevolence... friend.~
+@137 = ~You're an atheist? How does that make any sense?~
+@138 = ~I think someone is feeling terribly bored...~
+
+// tired
+@139 = ~We can't afford to stay tired.~
