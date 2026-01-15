@@ -4,23 +4,30 @@ VERSION "1.0.0"
 README ~%MOD_FOLDER%/readme.md~
 AUTO_EVAL_STRINGS
 
-// MODDER
-// 	setup_tra none
-// 	area_variables none
-// 	missing_extern warn
-// 	missing_resref warn
-// 	ict2_actions warn
-// 	missing_eval none
-// 	overwriting_file none
-// 	fun_args warn
+MODDER
+	setup_tra none
+	area_variables none
+	missing_extern warn
+	missing_resref warn
+	ict2_actions warn
+	missing_eval none
+	overwriting_file none
+	fun_args warn
 
 ALWAYS
+	INCLUDE ~%MOD_FOLDER%/lib/functions/cd_add_soundset.tpa~
 	INCLUDE ~%MOD_FOLDER%/lib/comp/zs_soundset_%COMPONENT_NUMBER%.tph~
 END
 LANGUAGE
 	"English"
 	"english"
 	"ZS_Soundsets/lang/english/setup.tra"
+	"English"
+	"english"
+	"ZS_Soundsets/lang/english/pious_knight.tra"
+	"English"
+	"english"
+	"ZS_Soundsets/lang/english/deadly_rogue.tra"
 
 BEGIN @0 DESIGNATED 0 // INSTALL PIOUS WARRIOR SOUNDSET
 REQUIRE_PREDICATE !GAME_IS ~pst pstee~ @50

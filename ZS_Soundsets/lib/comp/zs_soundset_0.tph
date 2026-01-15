@@ -6,7 +6,7 @@ OUTER_SET god_gender_m = "%zs_sset_pious_knight_god_gender%" STR_EQ "M"
 ACTION_IF NOT (god_gender_f OR god_gender_m) BEGIN
 
     OUTER_SET gender = "F"
-    WARN "User did not a valid specific gender, defaulting to Female. This warning is harmless if that is suitable. Otherwise set the appropriate value in the soundset"
+    WARN "User did not select a valid specific gender for deity, defaulting to female addresses (goddess). This warning is harmless if that is suitable. Otherwise, reinstall after settting the appropriate value in the soundset config file at config/zs_ssets_config.txt"
 
 END ELSE BEGIN
 
@@ -20,5 +20,55 @@ END ELSE BEGIN
 
 END
 
+COPY ~%MOD_FOLDER%/sounds/pious_knight~ ~lang/en_us/sounds~
+COPY ~%MOD_FOLDER%/wav/pious_knight~    ~override~
 
-COPY ~%MOD_FOLDER%/wav/pious_knight~ ~override~
+LAF cd_add_soundset 
+  INT_VAR 
+    cd_action1            = RESOLVE_STR_REF(@1) //  i
+    cd_action2            = RESOLVE_STR_REF(@2) //  j
+    cd_action3            = RESOLVE_STR_REF(@3) //  k
+    cd_action4            = RESOLVE_STR_REF(@4) //  s
+    cd_action5            = RESOLVE_STR_REF(@5) //  t
+    cd_action6            = RESOLVE_STR_REF(@6) //  u
+    cd_action7            = RESOLVE_STR_REF(@7) //  v
+    cd_action_rare1       = RESOLVE_STR_REF(@8) //  x - warning: action rare 1 only works on BG2EE v2.6
+    cd_action_rare2       = RESOLVE_STR_REF(@9) //  y - warning: action rare 2 only works on BG2EE v2.6
+    cd_battlecry1         = RESOLVE_STR_REF(@16) //  a
+    cd_battlecry2         = RESOLVE_STR_REF(@17) //  8
+    cd_battlecry3         = RESOLVE_STR_REF(@18) //  9
+    cd_battlecry4         = RESOLVE_STR_REF(@19) //  g_ (unofficial)
+    cd_battlecry5         = RESOLVE_STR_REF(@20) //  h_ (unofficial)
+    cd_bored1             = RESOLVE_STR_REF(@21) //  d
+    cd_city               = RESOLVE_STR_REF(@24) //  o
+    cd_common1            = RESOLVE_STR_REF(@25) //  f
+    cd_common2            = RESOLVE_STR_REF(@26) //  g
+    cd_common3            = RESOLVE_STR_REF(@27) //  h
+    cd_common4            = RESOLVE_STR_REF(@28) //  0
+    cd_common5            = RESOLVE_STR_REF(@29) //  k_ (unofficial)
+    cd_common6            = RESOLVE_STR_REF(@30) //  l_ (unofficial, letter)
+    cd_criticalhit        = RESOLVE_STR_REF(@32) //  z
+    cd_criticalmiss       = RESOLVE_STR_REF(@33) //  1  (number)
+    cd_damage1            = RESOLVE_STR_REF(@34) //  l  (letter)
+    cd_day                = RESOLVE_STR_REF(@37) //  q
+    cd_disrupted          = RESOLVE_STR_REF(@38) //  6
+    cd_dungeon            = RESOLVE_STR_REF(@39) //  p
+    cd_dying1             = RESOLVE_STR_REF(@40) //  m
+    cd_forest             = RESOLVE_STR_REF(@42) //  n
+    cd_hurt1              = RESOLVE_STR_REF(@46) //  e
+    cd_immune             = RESOLVE_STR_REF(@48) //  2
+    cd_inventory          = RESOLVE_STR_REF(@49) //  3
+    cd_leader1            = RESOLVE_STR_REF(@50) //  b
+    cd_morale_break1      = RESOLVE_STR_REF(@52) //  u_ (unofficial)
+    cd_night              = RESOLVE_STR_REF(@54) //  r
+    cd_pickpocket         = RESOLVE_STR_REF(@55) //  4
+    cd_select_rare1       = RESOLVE_STR_REF(@56) //  w_ (unofficial)
+    cd_select_rare2       = RESOLVE_STR_REF(@57) //  x_ (unofficial)
+    cd_select_rare3       = RESOLVE_STR_REF(@58) //  y_ (unofficial)
+    cd_select_rare4       = RESOLVE_STR_REF(@59) //  z_ (unofficial)
+    cd_shadows            = RESOLVE_STR_REF(@64) //  5
+    cd_tired1             = RESOLVE_STR_REF(@65) //  c
+    cd_trap               = RESOLVE_STR_REF(@67) //  7
+    cd_select_name        = RESOLVE_STR_REF(@70) // selection name on the Voice menu screen
+  STR_VAR cd_name = "PIOUSK"
+END  
