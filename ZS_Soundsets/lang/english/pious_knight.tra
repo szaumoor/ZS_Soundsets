@@ -20,7 +20,7 @@
 @114 = ~My god gives me great power and courage.~
 @115 = ~My goddess gives me great power and courage.~
 
-// moral failure
+// morale failure
 @116 = ~Ugh! I shall not be intimidated!~
 
 // leader
@@ -67,3 +67,8 @@
 
 // tired
 @139 = ~We can't afford to stay tired.~
+
+@140 = ~[grunt]~
+
+// immune
+@141 = ~I need a better weapon. Quickly!~
