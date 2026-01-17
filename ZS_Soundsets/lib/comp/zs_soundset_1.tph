@@ -1,1 +1,61 @@
 COPY ~%MOD_FOLDER%/wav/deadly_rogue~ ~override~
+
+LAF cd_add_soundset 
+  INT_VAR 
+    cd_action1            = RESOLVE_STR_REF(@106) //  i
+    cd_action2            = RESOLVE_STR_REF(@107) //  j
+    cd_action3            = RESOLVE_STR_REF(@108) //  k
+    cd_action4            = RESOLVE_STR_REF(@109) //  s
+    cd_action5            = RESOLVE_STR_REF(@110) //  t
+    cd_action6            = RESOLVE_STR_REF(@111) //  u
+    cd_action7            = RESOLVE_STR_REF(@112) //  v
+    cd_action_rare1       = RESOLVE_STR_REF(@114) //  x - warning: action rare 1 only works on BG2EE v2.6
+    cd_action_rare2       = deity_str0            //  y - warning: action rare 2 only works on BG2EE v2.6
+
+    cd_battlecry1         = RESOLVE_STR_REF(@119) //  a
+    cd_battlecry2         = RESOLVE_STR_REF(@120) //  8
+    cd_battlecry3         = RESOLVE_STR_REF(@121) //  9
+    cd_battlecry4         = RESOLVE_STR_REF(@122) //  g_ (unofficial)
+   // cd_battlecry5         = RESOLVE_STR_REF(@123) //  h_ (unofficial)
+
+    cd_day                = RESOLVE_STR_REF(@128) //  q
+    cd_night              = RESOLVE_STR_REF(@129) //  r
+    cd_city               = RESOLVE_STR_REF(@126) //  o
+    cd_forest             = RESOLVE_STR_REF(@125) //  n
+    cd_dungeon            = RESOLVE_STR_REF(@127) //  p
+
+    cd_common1            = RESOLVE_STR_REF(@100) //  f
+    cd_common2            = RESOLVE_STR_REF(@101) //  g
+    cd_common3            = RESOLVE_STR_REF(@102) //  h
+    cd_common4            = RESOLVE_STR_REF(@103) //  0
+    cd_common5            = RESOLVE_STR_REF(@104) //  k_ (unofficial)
+    cd_common6            = RESOLVE_STR_REF(@105) //  l_ (unofficial, letter)
+    cd_select_rare1       = RESOLVE_STR_REF(@135) //  w_ (unofficial)
+    cd_select_rare2       = RESOLVE_STR_REF(@136) //  x_ (unofficial)
+    cd_select_rare3       = RESOLVE_STR_REF(@137) //  y_ (unofficial)
+    cd_select_rare4       = RESOLVE_STR_REF(@138) //  z_ (unofficial)
+
+    cd_criticalhit        = RESOLVE_STR_REF(@32) //  z
+    cd_criticalmiss       = RESOLVE_STR_REF(@33) //  1  (number)
+
+    cd_damage1            = RESOLVE_STR_REF(@140) //  l  (letter)
+    cd_dying1             = RESOLVE_STR_REF(@124) //  m
+    cd_hurt1              = RESOLVE_STR_REF(@123) //  e
+    cd_disrupted          = RESOLVE_STR_REF(@134) //  6
+    
+    cd_immune             = RESOLVE_STR_REF(@141) //  2
+    cd_inventory          = deity_str1            //  3
+    cd_leader1            = RESOLVE_STR_REF(@117) //  b
+    cd_morale_break1      = RESOLVE_STR_REF(@116) //  u_ (unofficial)
+
+    cd_pickpocket         = RESOLVE_STR_REF(@132) //  4
+    cd_shadows            = RESOLVE_STR_REF(@113) //  5
+    cd_trap               = RESOLVE_STR_REF(@67) //  7
+
+    cd_tired1             = RESOLVE_STR_REF(@65) //  c
+    cd_bored1             = RESOLVE_STR_REF(@118) //  d
+
+    cd_select_name        = RESOLVE_STR_REF(@70) // selection name on the Voice menu screen
+  STR_VAR 
+    cd_name = "DROGUE"
+END  
