@@ -16,6 +16,6 @@ This is a soundset for the "deadly rogue", which is a soundset for a ruthless ro
 
 ## Credits
 
-- Glyph is the artists voicing both soundsets. She's an awesome professional and a pleasure to work with. [See her work here!](https://www.castingcall.club/dawnglyph)
-- CamDawg for the help and tutorials related to adding soundsets
-- GraionDilach for his work to facilitate soundset inclusion
+- Glyph is the artist voicing both soundsets. She's an awesome professional and a pleasure to work with. [See her work here!](https://www.castingcall.club/dawnglyph).
+- CamDawg for the help and tutorials related to adding soundsets.
+- GraionDilach for his work to facilitate soundset inclusion.

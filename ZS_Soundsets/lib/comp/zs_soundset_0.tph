@@ -1,32 +1,35 @@
 INCLUDE ~%MOD_FOLDER%/config/zs_ssets_config.txt~ 
 
-OUTER_SET god_gender_f = "%zs_sset_pious_knight_god_gender%" STR_EQ "F"
-OUTER_SET god_gender_m = "%zs_sset_pious_knight_god_gender%" STR_EQ "M"
+OUTER_SET god_gender_f = EVAL "%zs_sset_pious_knight_god_gender%" STR_EQ "F"
+OUTER_SET god_gender_m = EVAL "%zs_sset_pious_knight_god_gender%" STR_EQ "M"
 
 ACTION_IF NOT (god_gender_f OR god_gender_m) BEGIN
 
-    OUTER_SET gender = "F"
-    WARN "User did not select a valid specific gender for deity, defaulting to female addresses (goddess). This warning is harmless if that is suitable. Otherwise, reinstall after settting the appropriate value in the soundset config file at config/zs_ssets_config.txt"
+  OUTER_SPRINT gender "F"
+  OUTER_SET god_gender_f = 1
+  WARN "User did not select a valid specific gender for deity, defaulting to female addresses (goddess). This warning is harmless if that is suitable. Otherwise, reinstall after settting the appropriate value in the soundset config file at config/zs_ssets_config.txt"
+
+END
+
+ACTION_IF god_gender_f BEGIN
+
+  OUTER_SPRINT gender "F"
+  OUTER_SET deity_str0 = RESOLVE_STR_REF(@115) // goddess
+  OUTER_SET deity_str1 = RESOLVE_STR_REF(@131) // goddess
+
+  COPY ~%MOD_FOLDER%/sounds/pious_knight/goddess~ ~%MOD_FOLDER%/sounds/pious_knight~
 
 END ELSE BEGIN
 
-    ACTION_IF god_gender_f BEGIN
-
-        OUTER_SET gender = "F"
-        OUTER_SET deity_str0 = RESOLVE_STR_REF(@115) // goddess
-        OUTER_SET deity_str1 = RESOLVE_STR_REF(@131) // goddess
-
-    END ELSE BEGIN
-
-        OUTER_SET gender = "M"
-        OUTER_SET deity_str0 = RESOLVE_STR_REF(@114) // god
-        OUTER_SET deity_str1 = RESOLVE_STR_REF(@130) // goddess
-
-    END
-
-    PRINT "User-chosen gender for deity: %gender%"
+  OUTER_SPRINT gender "M"
+  OUTER_SET deity_str0 = RESOLVE_STR_REF(@114) // god
+  OUTER_SET deity_str1 = RESOLVE_STR_REF(@130) // god
 
 END
+
+DELETE ~%MOD_FOLDER%/sounds/pious_knight/goddess~
+PRINT "User-chosen gender for deity: %gender%"
+
 
 COPY ~%MOD_FOLDER%/sounds/pious_knight~ ~lang/en_us/sounds~
 COPY ~%MOD_FOLDER%/wav/pious_knight~    ~override~
@@ -86,7 +89,7 @@ LAF cd_add_soundset
     cd_tired1             = RESOLVE_STR_REF(@139) //  c
     cd_bored1             = RESOLVE_STR_REF(@118) //  d
 
-    cd_select_name        = RESOLVE_STR_REF("KAELYN") // selection name on the Voice menu screen
+    cd_select_name        = RESOLVE_STR_REF("KL: Pious Knight") // selection name on the Voice menu screen
   STR_VAR 
     cd_name = "PIOUSK"
-END  
+END

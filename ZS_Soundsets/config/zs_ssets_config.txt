@@ -2,4 +2,4 @@
 
 // None chosen by default (*)
 
-OUTER_SET zs_sset_pious_knight_god_gender = "*"
+OUTER_SPRINT zs_sset_pious_knight_god_gender "*"

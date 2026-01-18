@@ -1,61 +1,62 @@
+COPY ~%MOD_FOLDER%/sounds/deadly_rogue~ ~lang/en_us/sounds~
 COPY ~%MOD_FOLDER%/wav/deadly_rogue~ ~override~
 
 LAF cd_add_soundset 
   INT_VAR 
-    cd_action1            = RESOLVE_STR_REF(@106) //  i
-    cd_action2            = RESOLVE_STR_REF(@107) //  j
-    cd_action3            = RESOLVE_STR_REF(@108) //  k
-    cd_action4            = RESOLVE_STR_REF(@109) //  s
-    cd_action5            = RESOLVE_STR_REF(@110) //  t
-    cd_action6            = RESOLVE_STR_REF(@111) //  u
-    cd_action7            = RESOLVE_STR_REF(@112) //  v
-    cd_action_rare1       = RESOLVE_STR_REF(@114) //  x - warning: action rare 1 only works on BG2EE v2.6
-    cd_action_rare2       = RESOLVE_STR_REF(@130) //  y - warning: action rare 2 only works on BG2EE v2.6
+    cd_action1            = RESOLVE_STR_REF(@206) //  i
+    cd_action2            = RESOLVE_STR_REF(@207) //  j
+    cd_action3            = RESOLVE_STR_REF(@208) //  k
+    cd_action4            = RESOLVE_STR_REF(@209) //  s
+    cd_action5            = RESOLVE_STR_REF(@210) //  t
+    cd_action6            = RESOLVE_STR_REF(@211) //  u
+    cd_action7            = RESOLVE_STR_REF(@212) //  v
+    cd_action_rare1       = RESOLVE_STR_REF(@214) //  x - warning: action rare 1 only works on BG2EE v2.6
+    cd_action_rare2       = RESOLVE_STR_REF(@230) //  y - warning: action rare 2 only works on BG2EE v2.6
 
-    cd_battlecry1         = RESOLVE_STR_REF(@119) //  a
-    cd_battlecry2         = RESOLVE_STR_REF(@120) //  8
-    cd_battlecry3         = RESOLVE_STR_REF(@121) //  9
-    cd_battlecry4         = RESOLVE_STR_REF(@122) //  g_ (unofficial)
-   // cd_battlecry5         = RESOLVE_STR_REF(@123) //  h_ (unofficial)
+    cd_battlecry1         = RESOLVE_STR_REF(@219) //  a
+    cd_battlecry2         = RESOLVE_STR_REF(@220) //  8
+    cd_battlecry3         = RESOLVE_STR_REF(@221) //  9
+    cd_battlecry4         = RESOLVE_STR_REF(@222) //  g_ (unofficial)
+   // cd_battlecry5         = RESOLVE_STR_REF(@223) //  h_ (unofficial)
 
-    cd_day                = RESOLVE_STR_REF(@128) //  q
-    cd_night              = RESOLVE_STR_REF(@129) //  r
-    cd_city               = RESOLVE_STR_REF(@126) //  o
-    cd_forest             = RESOLVE_STR_REF(@125) //  n
-    cd_dungeon            = RESOLVE_STR_REF(@127) //  p
+    cd_day                = RESOLVE_STR_REF(@228) //  q
+    cd_night              = RESOLVE_STR_REF(@229) //  r
+    cd_city               = RESOLVE_STR_REF(@226) //  o
+    cd_forest             = RESOLVE_STR_REF(@225) //  n
+    cd_dungeon            = RESOLVE_STR_REF(@227) //  p
 
-    cd_common1            = RESOLVE_STR_REF(@100) //  f
-    cd_common2            = RESOLVE_STR_REF(@101) //  g
-    cd_common3            = RESOLVE_STR_REF(@102) //  h
-    cd_common4            = RESOLVE_STR_REF(@103) //  0
-    cd_common5            = RESOLVE_STR_REF(@104) //  k_ (unofficial)
-    cd_common6            = RESOLVE_STR_REF(@105) //  l_ (unofficial, letter)
-    cd_select_rare1       = RESOLVE_STR_REF(@135) //  w_ (unofficial)
-    cd_select_rare2       = RESOLVE_STR_REF(@136) //  x_ (unofficial)
-    cd_select_rare3       = RESOLVE_STR_REF(@137) //  y_ (unofficial)
-    cd_select_rare4       = RESOLVE_STR_REF(@138) //  z_ (unofficial)
+    cd_common1            = RESOLVE_STR_REF(@200) //  f
+    cd_common2            = RESOLVE_STR_REF(@201) //  g
+    cd_common3            = RESOLVE_STR_REF(@202) //  h
+    cd_common4            = RESOLVE_STR_REF(@203) //  0
+    cd_common5            = RESOLVE_STR_REF(@204) //  k_ (unofficial)
+    cd_common6            = RESOLVE_STR_REF(@205) //  l_ (unofficial, letter)
+    cd_select_rare1       = RESOLVE_STR_REF(@235) //  w_ (unofficial)
+    cd_select_rare2       = RESOLVE_STR_REF(@236) //  x_ (unofficial)
+    cd_select_rare3       = RESOLVE_STR_REF(@237) //  y_ (unofficial)
+    cd_select_rare4       = RESOLVE_STR_REF(@238) //  z_ (unofficial)
 
-    cd_criticalhit        = RESOLVE_STR_REF(@142) //  z
-    cd_criticalmiss       = RESOLVE_STR_REF(@143) //  1  (number)
+    cd_criticalhit        = RESOLVE_STR_REF(@242) //  z
+    cd_criticalmiss       = RESOLVE_STR_REF(@243) //  1  (number)
 
-    cd_damage1            = RESOLVE_STR_REF(@140) //  l  (letter)
-    cd_dying1             = RESOLVE_STR_REF(@124) //  m
-    cd_hurt1              = RESOLVE_STR_REF(@123) //  e
-    cd_disrupted          = RESOLVE_STR_REF(@134) //  6
+    cd_damage1            = RESOLVE_STR_REF(@240) //  l  (letter)
+    cd_dying1             = RESOLVE_STR_REF(@224) //  m
+    cd_hurt1              = RESOLVE_STR_REF(@223) //  e
+    cd_disrupted          = RESOLVE_STR_REF(@234) //  6
     
-    cd_immune             = RESOLVE_STR_REF(@141) //  2
-    cd_inventory          = RESOLVE_STR_REF(@131) //  3
-    cd_leader1            = RESOLVE_STR_REF(@117) //  b
-    cd_morale_break1      = RESOLVE_STR_REF(@116) //  u_ (unofficial)
+    cd_immune             = RESOLVE_STR_REF(@241) //  2
+    cd_inventory          = RESOLVE_STR_REF(@230) //  3
+    cd_leader1            = RESOLVE_STR_REF(@217) //  b
+    cd_morale_break1      = RESOLVE_STR_REF(@216) //  u_ (unofficial)
 
-    cd_pickpocket         = RESOLVE_STR_REF(@132) //  4
-    cd_shadows            = RESOLVE_STR_REF(@113) //  5
+    cd_pickpocket         = RESOLVE_STR_REF(@232) //  4
+    cd_shadows            = RESOLVE_STR_REF(@213) //  5
   //  cd_trap               = RESOLVE_STR_REF(@67) //  7
 
-    cd_tired1             = RESOLVE_STR_REF(@139) //  c
-    cd_bored1             = RESOLVE_STR_REF(@118) //  d
+    cd_tired1             = RESOLVE_STR_REF(@239) //  c
+    cd_bored1             = RESOLVE_STR_REF(@218) //  d
 
-    cd_select_name        = RESOLVE_STR_REF("KAELYN") // selection name on the Voice menu screen
+    cd_select_name        = RESOLVE_STR_REF("KL: Deadly Rogue") // selection name on the Voice menu screen
   STR_VAR 
     cd_name = "DROGUE"
 END  
