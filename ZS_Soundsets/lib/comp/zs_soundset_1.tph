@@ -10,8 +10,8 @@ LAF cd_add_soundset
     cd_action5            = RESOLVE_STR_REF(@210) //  t
     cd_action6            = RESOLVE_STR_REF(@211) //  u
     cd_action7            = RESOLVE_STR_REF(@212) //  v
-    cd_action_rare1       = RESOLVE_STR_REF(@214) //  x - warning: action rare 1 only works on BG2EE v2.6
-    cd_action_rare2       = RESOLVE_STR_REF(@230) //  y - warning: action rare 2 only works on BG2EE v2.6
+    cd_action_rare1       = RESOLVE_STR_REF(@213) //  x - warning: action rare 1 only works on BG2EE v2.6
+    cd_action_rare2       = RESOLVE_STR_REF(@214) //  y - warning: action rare 2 only works on BG2EE v2.6
 
     cd_battlecry1         = RESOLVE_STR_REF(@219) //  a
     cd_battlecry2         = RESOLVE_STR_REF(@220) //  8
