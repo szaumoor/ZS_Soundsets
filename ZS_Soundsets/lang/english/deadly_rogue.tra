@@ -1,23 +1,23 @@
 // Selections
-@200 = ~I am ready.~ [droguef]
-@201 = ~What now?~ [drogueg]
-@202 = ~Say the word.~ [drogueh]
-@203 = ~Be quick about it.~ [drogue0]
-@204 = ~You got a plan?~ [droguek_]
-@205 = ~What or *who* is our next target?~ [drogueh_]
+@200 = ~I am ready.~ [drogueh]
+@201 = ~What now?~ [droguek_]
+@202 = ~Say the word.~ [drogue0]
+@203 = ~Be quick about it.~ [droguef]
+@204 = ~You got a plan?~ [drogueg]
+@205 = ~What or *who* is our next target?~ [droguel_]
 
 // Actions
-@206 = ~Swiftly.~ [droguei]
+@206 = ~Swiftly.~ [droguev]
 @207 = ~Let's move.~ [droguej]
 @208 = ~Quietly.~ [droguek]
 @209 = ~I am a shadow in the night.~ [drogues]
-@210 = ~Fine.~ [droguet]
-@211 = ~Let's step lightly.~ [drogueu]
-@212 = ~You sure that's a good plan?~ [droguev]
+@210 = ~Fine.~ [droguei]
+@211 = ~Let's step lightly.~ [droguet]
+@212 = ~You sure that's a good plan?~ [drogueu]
 
 // select (action) rare
-@213 = ~Subtlety will always defeat brute force.~ [droguex]
-@214 = ~I shall be a ghost amidst the chaos.~ [droguey]
+@213 = ~Subtlety will always defeat brute force.~ [droguey]
+@214 = ~I shall be a ghost amidst the chaos.~ [droguex]
 
 // morale failure
 @216 = ~Must retreat! Into the shadows!~ [drogueu_]
@@ -26,13 +26,13 @@
 @217 = ~Being the face of the group? Heh, I prefer being the shadow behind it.~ [drogueb]
 
 // bored
-@218 = ~That's a hundred flies and not a single one offered to end my suffering. Shall we go?~ [piousd]
+@218 = ~That's a hundred flies and not a single one offered to end my suffering. Shall we go?~ [drogued]
 
 // attack lines
-@219 = ~Let's dance...~ [droguea]
-@220 = ~Time to render you silent...~ [drogue8]
-@221 = ~Unworthy opponent...~ [drogue9]
-@222 = ~Your death is inevitable...~ [drogueg_]
+@219 = ~Let's dance...~ [drogue8]
+@220 = ~Time to render you silent...~ [drogue9]
+@221 = ~Unworthy opponent...~ [drogueg_]
+@222 = ~Your death is inevitable...~ [droguea]
 @244 = ~Any last words?~ [drogueh_]
 
 // damaged

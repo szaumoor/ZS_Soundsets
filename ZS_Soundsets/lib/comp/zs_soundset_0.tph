@@ -11,13 +11,17 @@ ACTION_IF NOT (god_gender_f OR god_gender_m) BEGIN
 END ELSE BEGIN
 
     ACTION_IF god_gender_f BEGIN
+
         OUTER_SET gender = "F"
         OUTER_SET deity_str0 = RESOLVE_STR_REF(@115) // goddess
         OUTER_SET deity_str1 = RESOLVE_STR_REF(@131) // goddess
+
     END ELSE BEGIN
+
         OUTER_SET gender = "M"
         OUTER_SET deity_str0 = RESOLVE_STR_REF(@114) // god
         OUTER_SET deity_str1 = RESOLVE_STR_REF(@130) // goddess
+
     END
 
     PRINT "User-chosen gender for deity: %gender%"
@@ -62,8 +66,8 @@ LAF cd_add_soundset
     cd_select_rare3       = RESOLVE_STR_REF(@137) //  y_ (unofficial)
     cd_select_rare4       = RESOLVE_STR_REF(@138) //  z_ (unofficial)
 
-    cd_criticalhit        = RESOLVE_STR_REF(@32) //  z
-    cd_criticalmiss       = RESOLVE_STR_REF(@33) //  1  (number)
+    cd_criticalhit        = RESOLVE_STR_REF(@142) //  z
+    cd_criticalmiss       = RESOLVE_STR_REF(@143) //  1  (number)
 
     cd_damage1            = RESOLVE_STR_REF(@140) //  l  (letter)
     cd_dying1             = RESOLVE_STR_REF(@124) //  m
@@ -77,12 +81,12 @@ LAF cd_add_soundset
 
     cd_pickpocket         = RESOLVE_STR_REF(@132) //  4
     cd_shadows            = RESOLVE_STR_REF(@113) //  5
-    cd_trap               = RESOLVE_STR_REF(@67) //  7
+  //  cd_trap               = RESOLVE_STR_REF(@67) //  7
 
-    cd_tired1             = RESOLVE_STR_REF(@65) //  c
+    cd_tired1             = RESOLVE_STR_REF(@139) //  c
     cd_bored1             = RESOLVE_STR_REF(@118) //  d
 
-    cd_select_name        = RESOLVE_STR_REF(@70) // selection name on the Voice menu screen
+    cd_select_name        = RESOLVE_STR_REF("KAELYN") // selection name on the Voice menu screen
   STR_VAR 
     cd_name = "PIOUSK"
 END  
