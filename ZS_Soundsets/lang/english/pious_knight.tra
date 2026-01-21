@@ -76,3 +76,9 @@
 // attacks
 @142 = ~Fall, you wretch!~ [piouskz]
 @143 = ~Damn.~ [piousk1]
+
+// trap set
+@144 = ~The trap is set. Watch your step!~ [piousk7]
+
+// reaction to party member death
+@145 = ~Your death shall not be in vain...~ [piouskw]

@@ -1,5 +1,5 @@
 COPY ~%MOD_FOLDER%/sounds/deadly_rogue~ ~lang/en_us/sounds~
-COPY ~%MOD_FOLDER%/wav/deadly_rogue~ ~override~
+COPY ~%MOD_FOLDER%/wav/deadly_rogue~    ~override~
 
 LAF cd_add_soundset 
   INT_VAR 
@@ -17,7 +17,7 @@ LAF cd_add_soundset
     cd_battlecry2         = RESOLVE_STR_REF(@220) //  8
     cd_battlecry3         = RESOLVE_STR_REF(@221) //  9
     cd_battlecry4         = RESOLVE_STR_REF(@222) //  g_ (unofficial)
-   // cd_battlecry5         = RESOLVE_STR_REF(@223) //  h_ (unofficial)
+ // cd_battlecry5         = RESOLVE_STR_REF(@223) //  h_ (unofficial)
 
     cd_day                = RESOLVE_STR_REF(@228) //  q
     cd_night              = RESOLVE_STR_REF(@229) //  r
@@ -51,12 +51,14 @@ LAF cd_add_soundset
 
     cd_pickpocket         = RESOLVE_STR_REF(@232) //  4
     cd_shadows            = RESOLVE_STR_REF(@213) //  5
-  //  cd_trap               = RESOLVE_STR_REF(@67) //  7
+    cd_trap               = RESOLVE_STR_REF(@244) //  7
 
     cd_tired1             = RESOLVE_STR_REF(@239) //  c
     cd_bored1             = RESOLVE_STR_REF(@218) //  d
 
-    cd_select_name        = RESOLVE_STR_REF("KL: Deadly Rogue") // selection name on the Voice menu screen
+    cd_gen_death1         = RESOLVE_STR_REF(@245) //  w
+
+    cd_select_name        = RESOLVE_STR_REF("GLYPH: Deadly Rogue") // selection name on the Voice menu screen
   STR_VAR 
     cd_name = "DROGUE"
 END  

@@ -7,7 +7,7 @@ ACTION_IF NOT (god_gender_f OR god_gender_m) BEGIN
 
   OUTER_SPRINT gender "F"
   OUTER_SET god_gender_f = 1
-  WARN "User did not select a valid specific gender for deity, defaulting to female addresses (goddess). This warning is harmless if that is suitable. Otherwise, reinstall after settting the appropriate value in the soundset config file at config/zs_ssets_config.txt"
+  WARN "User did not select a valid specific gender for deity, defaulting to female addressesing mode (goddess). This warning is harmless if that is suitable. Otherwise, reinstall after settting the appropriate value in the soundset config file at config/zs_ssets_config.txt"
 
 END
 
@@ -43,14 +43,14 @@ LAF cd_add_soundset
     cd_action5            = RESOLVE_STR_REF(@110) //  t
     cd_action6            = RESOLVE_STR_REF(@111) //  u
     cd_action7            = RESOLVE_STR_REF(@112) //  v
-    cd_action_rare1       = RESOLVE_STR_REF(@114) //  x - warning: action rare 1 only works on BG2EE v2.6
+    cd_action_rare1       = RESOLVE_STR_REF(@113) //  x - warning: action rare 1 only works on BG2EE v2.6
     cd_action_rare2       = deity_str0            //  y - warning: action rare 2 only works on BG2EE v2.6
 
     cd_battlecry1         = RESOLVE_STR_REF(@119) //  a
     cd_battlecry2         = RESOLVE_STR_REF(@120) //  8
     cd_battlecry3         = RESOLVE_STR_REF(@121) //  9
     cd_battlecry4         = RESOLVE_STR_REF(@122) //  g_ (unofficial)
-   // cd_battlecry5         = RESOLVE_STR_REF(@123) //  h_ (unofficial)
+ // cd_battlecry5         = RESOLVE_STR_REF(@123) //  h_ (unofficial)
 
     cd_day                = RESOLVE_STR_REF(@128) //  q
     cd_night              = RESOLVE_STR_REF(@129) //  r
@@ -84,12 +84,14 @@ LAF cd_add_soundset
 
     cd_pickpocket         = RESOLVE_STR_REF(@132) //  4
     cd_shadows            = RESOLVE_STR_REF(@113) //  5
-  //  cd_trap               = RESOLVE_STR_REF(@67) //  7
+    cd_trap               = RESOLVE_STR_REF(@144) //  7
 
     cd_tired1             = RESOLVE_STR_REF(@139) //  c
     cd_bored1             = RESOLVE_STR_REF(@118) //  d
 
-    cd_select_name        = RESOLVE_STR_REF("KL: Pious Knight") // selection name on the Voice menu screen
+    cd_gen_death1         = RESOLVE_STR_REF(@145) //  w
+
+    cd_select_name        = RESOLVE_STR_REF("GLYPH: Pious Knight") // selection name on the Voice menu screen
   STR_VAR 
     cd_name = "PIOUSK"
 END
