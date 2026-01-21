@@ -2,16 +2,6 @@ BACKUP "weidu_external/backup/ZS_Soundsets"
 SUPPORT "Kaelyn at Gibberlings3 forum https://www.gibberlings3.net/profile/12720-kaelyn/ or at kaelyn@tuta.io"
 VERSION "1.0.0"
 README ~%MOD_FOLDER%/readme.md~
-MODDER
-	setup_tra none
-	area_variables none
-	missing_extern warn
-	missing_resref warn
-	ict2_actions warn
-	missing_eval none
-	overwriting_file none
-	fun_args warn
-
 ALWAYS
 	INCLUDE ~%MOD_FOLDER%/lib/functions/cd_add_soundset.tpa~
 	INCLUDE ~%MOD_FOLDER%/lib/comp/zs_soundset_%COMPONENT_NUMBER%.tph~
@@ -24,7 +14,7 @@ LANGUAGE
 	"ZS_Soundsets/lang/english/deadly_rogue.tra"
 
 BEGIN @0 DESIGNATED 0 // INSTALL PIOUS WARRIOR SOUNDSET
-REQUIRE_PREDICATE !GAME_IS ~pst pstee~ @50
+REQUIRE_PREDICATE NOT GAME_IS ~pst pstee~ @50
 
 BEGIN @1 DESIGNATED 1 // INSTALL DEADLY ROGUE SOUNDSET
-REQUIRE_PREDICATE !GAME_IS ~pst pstee~ @50
+REQUIRE_PREDICATE NOT GAME_IS ~pst pstee~ @50
