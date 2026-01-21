@@ -50,7 +50,7 @@ LAF cd_add_soundset
     cd_morale_break1      = RESOLVE_STR_REF(@216) //  u_ (unofficial)
 
     cd_pickpocket         = RESOLVE_STR_REF(@232) //  4
-    cd_shadows            = RESOLVE_STR_REF(@213) //  5
+    cd_shadows            = RESOLVE_STR_REF(@233) //  5
     cd_trap               = RESOLVE_STR_REF(@244) //  7
 
     cd_tired1             = RESOLVE_STR_REF(@239) //  c

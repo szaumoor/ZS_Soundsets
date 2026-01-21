@@ -83,7 +83,7 @@ LAF cd_add_soundset
     cd_morale_break1      = RESOLVE_STR_REF(@116) //  u_ (unofficial)
 
     cd_pickpocket         = RESOLVE_STR_REF(@132) //  4
-    cd_shadows            = RESOLVE_STR_REF(@113) //  5
+    cd_shadows            = RESOLVE_STR_REF(@133) //  5
     cd_trap               = RESOLVE_STR_REF(@144) //  7
 
     cd_tired1             = RESOLVE_STR_REF(@139) //  c
