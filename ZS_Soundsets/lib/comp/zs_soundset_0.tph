@@ -93,5 +93,5 @@ LAF cd_add_soundset
 
     cd_select_name        = RESOLVE_STR_REF("ZS_GLYPH: PiousKnight") // selection name on the Voice menu screen
   STR_VAR 
-    cd_name = "PIOUSK"
+    cd_name = "ZSSS00"
 END
