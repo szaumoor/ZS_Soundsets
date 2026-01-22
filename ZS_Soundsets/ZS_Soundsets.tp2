@@ -1,6 +1,6 @@
 BACKUP "weidu_external/backup/ZS_Soundsets"
 SUPPORT "Kaelyn at Gibberlings3 forum https://www.gibberlings3.net/profile/12720-kaelyn/ or at kaelyn@tuta.io"
-VERSION "1.0.1"
+VERSION "1.0.2"
 README ~%MOD_FOLDER%/readme.md~
 ALWAYS
 	INCLUDE ~%MOD_FOLDER%/lib/functions/cd_add_soundset.tpa~

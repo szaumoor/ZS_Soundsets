@@ -1,3 +1,4 @@
 # Changelog
 
-- Added my modder prefix to the soundset names so they group together cleanly
+- Added my modder prefix to the soundset (file)names so they group together cleanly (for real this time)
+

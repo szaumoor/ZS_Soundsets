@@ -1,83 +1,83 @@
 // Selections
-@200 = ~I am ready.~ [drogueh]
-@201 = ~What now?~ [droguek_]
-@202 = ~Say the word.~ [drogue0]
-@203 = ~Be quick about it.~ [droguef]
-@204 = ~You got a plan?~ [drogueg]
-@205 = ~What or *who* is our next target?~ [droguel_]
+@200 = ~I am ready.~ [zsss01h]
+@201 = ~What now?~ [zsss01k_]
+@202 = ~Say the word.~ [zsss010]
+@203 = ~Be quick about it.~ [zsss01f]
+@204 = ~You got a plan?~ [zsss01g]
+@205 = ~What or *who* is our next target?~ [zsss01l_]
 
 // Actions
-@206 = ~Swiftly.~ [droguev]
-@207 = ~Let's move.~ [droguej]
-@208 = ~Quietly.~ [droguek]
-@209 = ~I am a shadow in the night.~ [drogues]
-@210 = ~Fine.~ [droguei]
-@211 = ~Let's step lightly.~ [droguet]
-@212 = ~You sure that's a good plan?~ [drogueu]
+@206 = ~Swiftly.~ [zsss01v]
+@207 = ~Let's move.~ [zsss01j]
+@208 = ~Quietly.~ [zsss01k]
+@209 = ~I am a shadow in the night.~ [zsss01s]
+@210 = ~Fine.~ [zsss01i]
+@211 = ~Let's step lightly.~ [zsss01t]
+@212 = ~You sure that's a good plan?~ [zsss01u]
 
 // select (action) rare
-@213 = ~Subtlety will always defeat brute force.~ [droguey]
-@214 = ~I shall be a ghost amidst the chaos.~ [droguex]
+@213 = ~Subtlety will always defeat brute force.~ [zsss01y]
+@214 = ~I shall be a ghost amidst the chaos.~ [zsss01x]
 
 // morale failure
-@216 = ~Must retreat! Into the shadows!~ [drogueu_]
+@216 = ~Must retreat! Into the shadows!~ [zsss01u_]
 
 // leader
-@217 = ~Being the face of the group? Heh, I prefer being the shadow behind it.~ [drogueb]
+@217 = ~Being the face of the group? Heh, I prefer being the shadow behind it.~ [zsss01b]
 
 // bored
-@218 = ~That's a hundred flies and not a single one offered to end my suffering. Shall we go?~ [drogued]
+@218 = ~That's a hundred flies and not a single one offered to end my suffering. Shall we go?~ [zsss01d]
 
 // attack lines
-@219 = ~Let's dance...~ [drogue8]
-@220 = ~Time to render you silent...~ [drogue9]
-@221 = ~Unworthy opponent...~ [drogueg_]
-@222 = ~Your death is inevitable...~ [droguea]
-@244 = ~Any last words?~ [drogueh_]
+@219 = ~Let's dance...~ [zsss018]
+@220 = ~Time to render you silent...~ [zsss019]
+@221 = ~Unworthy opponent...~ [zsss01g_]
+@222 = ~Your death is inevitable...~ [zsss01a]
+@244 = ~Any last words?~ [zsss01h_]
 
 // damaged
-@223 = ~Ugh! You'll pay for that!~ [droguee]
-@224 = ~Ugh... To the void I go...~ [droguem]
+@223 = ~Ugh! You'll pay for that!~ [zsss01e]
+@224 = ~Ugh... To the void I go...~ [zsss01m]
 
 // circumstances
-@225 = ~Let's take a moment to remember that death is part of the "natural order".~ [droguen]
-@226 = ~There's much opportunity in the city if you're smart.~ [drogueo]
-@227 = ~Search every nook and cranny, but tread carefully.~ [droguep]
-@228 = ~This daylight will make my job harder, but I'll make do.~ [drogueq]
-@229 = ~The dark is where I belong.~ [droguer]
+@225 = ~Let's take a moment to remember that death is part of the "natural order".~ [zsss01n]
+@226 = ~There's much opportunity in the city if you're smart.~ [zsss01o]
+@227 = ~Search every nook and cranny, but tread carefully.~ [zsss01p]
+@228 = ~This daylight will make my job harder, but I'll make do.~ [zsss01q]
+@229 = ~The dark is where I belong.~ [zsss01r]
 
 // inventory
-@230 = ~Find another pack mule. I can't hold any more items.~ [drogue3]
+@230 = ~Find another pack mule. I can't hold any more items.~ [zsss013]
 
 // picked pocket
-@232 = ~Mine.~ [drogue4]
+@232 = ~Mine.~ [zsss014]
 
 // hidden
-@233 = ~And I disappear...~ [drogue5]
+@233 = ~And I disappear...~ [zsss015]
 
 // interrupted
-@234 = ~Ugh, I need to be more careful.~ [drogue6]
+@234 = ~Ugh, I need to be more careful.~ [zsss016]
 
 // select rares (clicking too much)
-@235 = ~Are you done being a nuisance?~ [droguew_]
-@236 = ~Then I shall return to my meditations.~ [droguex_]
-@237 = ~The true world revealed / Weaknesses now known to me / Time to go to work.~ [droguey_]
-@238 = ~So what if I ghosted you? That's just how I roll.~ [droguez_]
+@235 = ~Are you done being a nuisance?~ [zsss01w_]
+@236 = ~Then I shall return to my meditations.~ [zsss01x_]
+@237 = ~The true world revealed / Weaknesses now known to me / Time to go to work.~ [zsss01y_]
+@238 = ~So what if I ghosted you? That's just how I roll.~ [zsss01z_]
 
 // tired
-@239 = ~We should make camp. You need me at my best.~ [droguec]
+@239 = ~We should make camp. You need me at my best.~ [zsss01c]
 
-@240 = ~[grunt]~ [droguel]
+@240 = ~[grunt]~ [zsss01l]
 
 // immune
-@241 = ~Ugh. I need a stronger weapon!~ [drogue2]
+@241 = ~Ugh. I need a stronger weapon!~ [zsss012]
 
 // attacks
-@242 = ~Feel my sting!~ [droguez]
-@243 = ~Damn it.~ [drogue1]
+@242 = ~Feel my sting!~ [zsss01z]
+@243 = ~Damn it.~ [zsss011]
 
 // trap set
-@244 = ~Ooh... This is going to hurt!~ [drogue7]
+@244 = ~Ooh... This is going to hurt!~ [zsss017]
 
 // reaction to party member death
-@245 = ~Dammit! I'll kill the bastard who did it.~ [droguew]
+@245 = ~Dammit! I'll kill the bastard who did it.~ [zsss01w]

@@ -58,7 +58,7 @@ LAF cd_add_soundset
 
     cd_gen_death1         = RESOLVE_STR_REF(@245) //  w
 
-    cd_select_name        = RESOLVE_STR_REF("ZS_GLYPH: DeadlyRogue") // selection name on the Voice menu screen
+    cd_select_name        = RESOLVE_STR_REF("ZS_GLYPH: Deadly Rogue") // selection name on the Voice menu screen
   STR_VAR 
     cd_name = "ZSSS01"
 END  
